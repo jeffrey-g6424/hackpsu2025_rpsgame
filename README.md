@@ -18,12 +18,12 @@ cd /path/to/your/project
   This helps avoid install issues with newer wheels.
   pip install --upgrade pip
 
-6. Install required Python packages for the camera game:
+5. Install required Python packages for the camera game:
  - opencv-python: access the webcam, draw the UI overlay
  - mediapipe: hand landmark detection (to read ROCK/PAPER/SCISSORS from your hand)
   pip install opencv-python mediapipe
 
-7. Run the camera-based Rock/Paper/Scissors game.
+6. Run the camera-based Rock/Paper/Scissors game.
   cam_rps.py will:
   - open your webcam
   - detect your hand pose (fist / open hand / peace sign)
