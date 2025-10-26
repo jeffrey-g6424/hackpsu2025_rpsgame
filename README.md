@@ -9,19 +9,22 @@ Assuming you've downloaded all the files and are running this in VS Code, put ea
 cd /path/to/your/project
 
 2. Create a Python 3.12 virtual environment called "rpscam-env".
-  python3.12 -m venv rpscam-env
 
-3. Activate the virtual environment.
-  source rpscam-env/bin/activate
+   python3.12 -m venv rpscam-env
 
-4. Upgrade pip inside the virtual environment to the latest installer.
-  This helps avoid install issues with newer wheels.
-  pip install --upgrade pip
+4. Activate the virtual environment.
 
-5. Install required Python packages for the camera game:
+   source rpscam-env/bin/activate
+
+5. Upgrade pip inside the virtual environment to the latest installer. This helps avoid install issues with newer wheels.
+
+   pip install --upgrade pip
+
+7. Install required Python packages for the camera game:
  - opencv-python: access the webcam, draw the UI overlay
  - mediapipe: hand landmark detection (to read ROCK/PAPER/SCISSORS from your hand)
-  pip install opencv-python mediapipe
+ 
+   pip install opencv-python mediapipe
 
 6. Run the camera-based Rock/Paper/Scissors game.
   cam_rps.py will:
