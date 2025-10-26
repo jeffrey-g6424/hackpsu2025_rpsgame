@@ -34,6 +34,6 @@ cd /path/to/your/project
   - call into the C library (librps.dylib) using ctypes
   - display the result of the round
     
-   python cam_rps.py
+    python cam_rps.py
 
 ******
