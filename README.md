@@ -33,6 +33,7 @@ cd /path/to/your/project
   - convert that gesture to ROCK, PAPER, or SCISSORS
   - call into the C library (librps.dylib) using ctypes
   - display the result of the round
-  python cam_rps.py
+    
+   python cam_rps.py
 
 ******
