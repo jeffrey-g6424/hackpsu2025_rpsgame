@@ -1,4 +1,4 @@
-**This project is essentially the Rock, Paper, Scissor program inspired from C project ideas from GeeksForGeeks. However, a camera is used to see player's hand gesture input (closed fist for rock, open hand for paper, and two fingers for scissors).
+This project is essentially the Rock, Paper, Scissor program inspired from C project ideas from GeeksForGeeks. However, a camera is used to see player's hand gesture input (closed fist for rock, open hand for paper, and two fingers for scissors).
 
 Assuming you've downloaded all the files and are running this in VS Code, put each step into Terminal and run:
 
