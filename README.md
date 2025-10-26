@@ -38,6 +38,9 @@ Assuming you've downloaded all the files and are running this in VS Code, follow
   - call into the C library (librps.dylib) using ctypes
   - display the result of the round
     
-    Run this in Terminal: python cam_rps.py
+    Run the following in Terminal depending on which version you'd like to play:
+    - For game only in Terminal (no camera): ./rps_cli
+    - For game with a simple GUI (no camera): python3 ui.py
+    - For game with the camera: python3 new_rps_with_cam_and_gui.py
 
 ******
