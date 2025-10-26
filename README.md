@@ -1,16 +1,14 @@
 This project is essentially the Rock, Paper, Scissor program inspired from C project ideas from GeeksForGeeks. However, a camera is used to see player's hand gesture input (closed fist for rock, open hand for paper, and two fingers for scissors).
 
-Assuming you've downloaded all the files and are running this in VS Code, put each step into Terminal and run:
+Assuming you've downloaded all the files and are running this in VS Code, follow the below steps:
 
 1. Go to the project directory that contains:
- - cam_rps.py   (the Python webcam controller)
- - librps.dylib (the compiled C game logic as a dynamic library)
- - rps.c / rps.h (your C source and header, for reference)
+ - cam_rps.py
+ - librps.dylib
+ - rps.c / rps.h
 
-   Run this in Terminal: cd /path/to/your/project
 
-   
-2. Create a Python 3.12 virtual environment called "rpscam-env".
+2. Create a Python 3.12 virtual environment called "rpscam-env" Need to install Python version 3.12.x if necessary.
 
    Run this in Terminal: python3.12 -m venv rpscam-env
    
